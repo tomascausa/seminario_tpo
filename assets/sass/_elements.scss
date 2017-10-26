@@ -1,0 +1,39 @@
+/*-------------------------------
+		1.-ELEMENTS
+--------------------------------*/
+
+//============== vertical align ==============//
+.Aligner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Aligner-item {
+    max-width: 50%;
+}
+
+.Aligner-item--top {
+    align-self: flex-start;
+}
+
+.Aligner-item--bottom {
+    align-self: flex-end;
+}
+//============ end vertical align ============//
+
+
+//============== botones ==============//
+.btn-light-blue{
+    background-color: #ebeff6!important;
+    color: #2a4272!important;
+}
+//============ end botones ============//
+
+
+.woodbg {
+    background: #ebeff6;
+}
+
+
+

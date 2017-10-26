@@ -1,0 +1,74 @@
+/*-------------------------------
+		2.-MODULES
+--------------------------------*/
+
+//============== login ==============//
+.smart-container{
+    &.login,
+    &.ingreso-muestra{
+        background-color: $white;
+    }
+}
+
+.smart-forms{
+    .header-primary {
+        background-color: $blue;
+        border-top: 1px solid #3f62aa;
+        border-bottom: 5px solid #253b66;
+    }
+
+    .gui-input {
+        background-color: $white!important;
+        border: 1px solid #CFCFCF;
+    }
+
+    .form-footer{
+        background: $blue url(../images/foobg.png) top left repeat-x;
+    }
+
+    &.login{
+        .form-header{
+            &.Aligner{
+                display: block;
+            }
+
+            h4{
+                display: inline-block;
+            }
+
+            .logo{
+                display: inline-block;
+                width: 60px;
+                float: right;
+            }
+        }
+    }
+
+    &.ingreso-muestra{
+
+    }
+}
+//============ end login ============//
+
+
+//============== navbar =============//
+.navbar{
+    background-color: $blue;
+    border-color: $blue;
+    border-radius: 0;
+    padding: 10px;
+
+    a{
+        color: $white!important;
+        font-family: "Roboto", Arial, Helvetica, sans-serif;
+    }
+
+    .logo{
+        width: 75px;
+    }
+
+    .cerrar-sesion{
+        margin-top: 8px;
+    }
+}
+//============ end navbar ===========//
