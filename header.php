@@ -9,8 +9,10 @@
 	<link rel="stylesheet" type="text/css"  href="assets/css/smart-forms.css">
 	<link rel="stylesheet" type="text/css"  href="assets/css/smart-addons.css">
 	<link rel="stylesheet" type="text/css"  href="assets/css/smart-themes/blue.css">
-	<link rel="stylesheet" type="text/css"  href="assets/css/font-awesome.min.css">
+<!--	<link rel="stylesheet" type="text/css"  href="assets/css/font-awesome.min.css">-->
 	<link rel="stylesheet" type="text/css"  href="assets/css/main.css">
+
+    <script src="https://use.fontawesome.com/aa7909b889.js"></script>
 
 	<script type="text/javascript" src="assets/js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="assets/js/jquery-ui-custom.min.js"></script>
@@ -40,7 +42,7 @@
 
 			/* @fecha de ingreso
 			 ------------------------------------------------------------------ */
-			$("#datepicker1").datepicker({
+			$("#fecha").datepicker({
 				numberOfMonths: 1,
 				prevText: '<i class="fa fa-chevron-left"></i>',
 				nextText: '<i class="fa fa-chevron-right"></i>',
@@ -101,56 +103,97 @@
 				validClass: "state-success",
 				errorElement: "em",
 				rules: {
-					guestname: {
+                    protocolo: {
 						required: true
 					},
-					guestemail: {
+                    fecha: {
 						required: true,
-						email: true
+						date: true
 					},
-					adults: {
+                    veterinaria: {
+						required: true
+					},
+                    pagado: {
 						required: true,
 						number: true
 					},
-					children: {
-						required: true,
-						number: true
-					},
-					checkin:{
+                    propietario:{
 						required:true
 					},
-					checkout:{
+                    paciente:{
 						required:true
 					},
-					comment:{
+					medico:{
 						required:true
-					}
+					},
+                    estudio:{
+                        required:true
+                    },
+                    raza:{
+                        required:true
+                    },
+                    especie:{
+                        required:true
+                    },
+                    sexo:{
+                        required:true
+                    },
+                    ec:{
+                        required:true
+                    },
+                    edad:{
+                        required:true
+                    },
+                    peso:{
+                        required:true
+                    }
 				},
 				messages:{
-					guestname: {
-						required: 'Enter your name'
+                    protocolo: {
+						required: 'Ingrese un protocolo.'
 					},
-					guestemail: {
-						required: 'Enter your email address',
-						email: 'Enter a VALID email address'
+                    fecha: {
+						required: 'Ingrese una fecha de ingreso.',
+						date: 'Ingrese una fecha de ingreso válida.'
 					},
 					adults: {
 						required: 'Enter the number of adult guests',
 						number: 'Please enter a VALID number'
 					},
-					children: {
-						required: 'Confirm the number of child guests',
-						number: 'Please enter a VALID number'
+                    pagado: {
+						required: 'Campo requerido. Ingrese un monto.',
+						number: 'Ingrese un número válido.'
 					},
-					checkin:{
-						required: 'Please select checkin date'
+                    propietario:{
+						required: 'Ingrese un propietario.'
 					},
-					checkout:{
-						required:'Please select checkout date'
+                    paciente:{
+						required:'Ingrese un paciente.'
 					},
-					comment:{
-						required:'Please enter your comments'
-					}
+                    medico:{
+						required:'Ingrese un medico clínico.'
+					},
+                    estudio:{
+                        required: 'Ingrese un estudio solicitado.'
+                    },
+                    raza:{
+                        required:'Ingrese una raza.'
+                    },
+                    especie:{
+                        required:'Please una especie.'
+                    },
+                    sexo:{
+                        required:'Ingrese un sexo.'
+                    },
+                    ec:{
+                        required:'Please una E/C.'
+                    },
+                    edad:{
+                        required:'Please una edad.'
+                    },
+                    peso:{
+                        required:'Ingrese un peso.'
+                    }
 				},
 				highlight: function(element, errorClass, validClass) {
 					$(element).closest('.field').addClass(errorClass).removeClass(validClass);

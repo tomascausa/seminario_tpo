@@ -31,6 +31,44 @@
 //============ end botones ============//
 
 
+//============== datepickers ==============//
+.ui-datepicker {
+    border: 5px solid $blue;
+    background: $white;
+
+    th{
+        color: $black;
+    }
+
+    .ui-datepicker-title{
+        color: $white;
+    }
+
+    .ui-datepicker-header {
+        background: $blue;
+        
+        .ui-corner-all{
+            color: $white;
+        }
+    }
+
+    &:before{
+        border-color: rgba(255,255,255,0) rgba(255,255,255,0) $blue rgba(255,255,255,0);
+    }
+}
+//============ end datepickers ============//
+
+
+//============ combo-box ============//
+.custom-combobox-toggle{
+    background: #F5F5F5;
+    border: 1px solid #CFCFCF;
+    border-left: none;
+    color: #666;
+}
+//========== end combo-box ==========//
+
+
 .woodbg {
     background: #ebeff6;
 }
