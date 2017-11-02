@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title> Smart Forms - Calender + Date Picker </title>
+	<title> HEAPP </title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -50,14 +50,9 @@
 			});
 
 
-			/* @veterinaria
-			 ------------------------------------------------------------------ */
-			$("#veterinaria").combobox();
-
-
 			/* @estudio solicitado
 			 ------------------------------------------------------------------ */
-			$("#estudio").combobox();
+			$("#estudioSolicitado").combobox();
 
 
 			/* @raza
@@ -77,7 +72,7 @@
 
 			/* @ec
 			 ------------------------------------------------------------------ */
-			$("#ec").combobox();
+			$("#e_c").combobox();
 
 
 			/* @edad
@@ -96,8 +91,7 @@
 			});
 
 
-
-			$( "#smart-form" ).validate({
+			$( "#ingreso-muestra-form" ).validate({
 
 				errorClass: "state-error",
 				validClass: "state-success",
@@ -110,7 +104,7 @@
 						required: true,
 						date: true
 					},
-                    veterinaria: {
+                    idveterinaria: {
 						required: true
 					},
                     pagado: {
@@ -120,13 +114,13 @@
                     propietario:{
 						required:true
 					},
-                    paciente:{
+                    nombrePaciente:{
 						required:true
 					},
-					medico:{
+					medicoClinico:{
 						required:true
 					},
-                    estudio:{
+                    estudioSolicitado:{
                         required:true
                     },
                     raza:{
@@ -138,7 +132,7 @@
                     sexo:{
                         required:true
                     },
-                    ec:{
+                    e_c:{
                         required:true
                     },
                     edad:{
@@ -164,16 +158,19 @@
 						required: 'Campo requerido. Ingrese un monto.',
 						number: 'Ingrese un número válido.'
 					},
+					idveterinaria: {
+						required: 'Campo requerido. Ingrese una veterinaria.'
+					},
                     propietario:{
 						required: 'Ingrese un propietario.'
 					},
-                    paciente:{
+                    nombrePaciente:{
 						required:'Ingrese un paciente.'
 					},
-                    medico:{
+                    medicoClinico:{
 						required:'Ingrese un medico clínico.'
 					},
-                    estudio:{
+                    estudioSolicitado:{
                         required: 'Ingrese un estudio solicitado.'
                     },
                     raza:{
@@ -185,11 +182,11 @@
                     sexo:{
                         required:'Ingrese un sexo.'
                     },
-                    ec:{
+                    e_c:{
                         required:'Please una E/C.'
                     },
                     edad:{
-                        required:'Please una edad.'
+                        required:'Ingrese una edad.'
                     },
                     peso:{
                         required:'Ingrese un peso.'

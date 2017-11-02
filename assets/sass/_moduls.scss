@@ -5,7 +5,8 @@
 //============== login ==============//
 .smart-container{
     &.login,
-    &.ingreso-muestra{
+    &.ingreso-muestra,
+    &.recuperar-contrasena{
         background-color: $white;
     }
 }
@@ -26,7 +27,8 @@
         background: $blue url(../images/foobg.png) top left repeat-x;
     }
 
-    &.login{
+    &.login,
+    &.recuperar-contrasena{
         .form-header{
             &.Aligner{
                 display: block;

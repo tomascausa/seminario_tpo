@@ -31,6 +31,21 @@
 //============ end botones ============//
 
 
+//============== colores ==============//
+.white-color{
+    color: $white!important;
+}
+//============ end colores ============//
+
+
+//============== dividers ==============//
+.divider-10{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+//============ end dividers ============//
+
+
 //============== datepickers ==============//
 .ui-datepicker {
     border: 5px solid $blue;
@@ -46,7 +61,7 @@
 
     .ui-datepicker-header {
         background: $blue;
-        
+
         .ui-corner-all{
             color: $white;
         }
@@ -74,4 +89,15 @@
 }
 
 
-
+em{
+    &.state-error{
+        display: block!important;
+        margin-top: 6px;
+        padding: 0 3px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        line-height: normal;
+        color: #E46B66;
+        font-size: 0.85em;
+    }
+}

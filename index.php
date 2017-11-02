@@ -11,7 +11,7 @@
 				<img src="assets/images/logo.png" class="Aligner-item logo" alt="Logo HeApp"/>
 			</div>
 
-			<form method="post" action="/" id="contact">
+			<form method="post" action="/" id="login-form">
 				<div class="form-body">
 
 					<div class="section">
@@ -31,7 +31,17 @@
 				</div>
 				<div class="form-footer">
 <!--					<button type="submit" class="button btn-blue btn-light-blue">Ingresar</button>-->
-					<a href="ingreso-muestras.php" class="button btn-blue btn-light-blue">Ingresar</a>
+					<div class="row">
+					  	<div class="col-md-12">
+					  		<a href="ingreso-muestras.php" class="button btn-blue btn-light-blue">Ingresar</a>
+					  	</div>
+					</div>
+					<div class="divider-10"></div>
+					<div class="row">
+					  	<div class="col-md-12">
+					  		<a href="recuperar-contrasena.php" class="white-color">Recuperar contraseña</a>
+					  	</div>
+					</div>
 				</div>
 			</form>
 
@@ -41,4 +51,3 @@
 <?php
 	include('footer.php');
 ?>
-
