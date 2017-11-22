@@ -81,3 +81,31 @@
     }
 }
 //============ end navbar ===========//
+
+
+
+//================ table ===============//
+.lista-muestras{
+    margin-top: 50px;
+    
+    table{
+        border: 2px solid $blue;
+
+        th, td{
+            font-family: "Roboto", Arial, Helvetica, sans-serif;
+            color: $blue;
+        }
+
+        thead{
+            background-color: $blue;
+
+            tr{
+                th{
+                    border-bottom: 2px solid $blue;
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+//============== end table =============//
