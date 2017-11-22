@@ -100,8 +100,6 @@
 							<label for="estudioSolicitado" class="field-label">Estudio Solicitado</label>
 							<label class="field select prepend-icon">
 								<select id="estudioSolicitado" name="estudioSolicitado">
-									<option disabled>Seleccione un estudio</option>
-									<!-- <option>Select one...</option> -->
 									<option>Citologia</option>
 									<option>Calculo Urinario</option>
 									<option>Toxo-Neo</option>
@@ -117,7 +115,6 @@
 							<label for="raza" class="field-label">Raza</label>
 							<label class="field select prepend-icon">
 								<select id="raza" name="raza" data-cb-widget-placeholder="Raza">
-									<option disabled selected>Seleccione una raza</option>
 									<option>Schnauzer</option>
 									<option>Dogo Argentino</option>
 									<option>Ovejero Alem·n</option>
@@ -415,7 +412,6 @@
 							<label for="especie" class="field-label">Especie</label>
 							<label class="field prepend-icon">
 								<select id="especie" name="especie" data-cb-widget-placeholder="Especie">
-									<option disabled selected>Seleccione una especie</option>
 									<option>Canino</option>
 									<option>Felino</option>
 									<option>Equino</option>
@@ -431,7 +427,6 @@
 							<label for="sexo" class="field-label">Sexo</label>
 							<label class="field prepend-icon">
 								<select id="sexo" name="sexo" data-cb-widget-placeholder="Sexo">
-									<option disabled selected>Seleccione un sexo</option>
 									<option value="M">Masculino</option>
 									<option value="F">Femenino</option>
 								</select>
@@ -443,7 +438,6 @@
 							<label for="e_c" class="field-label">E/C</label>
 							<label class="field prepend-icon">
 								<select id="e_c" name="e_c" data-cb-widget-placeholder="E/C">
-									<option disabled selected>Seleccione un E/C</option>
 									<option value="e">Entero</option>
 									<option value="c">Castrado</option>
 								</select>
