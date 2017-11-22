@@ -28,7 +28,8 @@
         <div id="login">
     		<div class="smart-forms login">
     			<div class="form-header header-primary Aligner">
-    				<h4><i class="fa-list-alt Aligner-item"></i>Listado de Muestras</h4>
+    				<h4><i class="fa fa-list-alt Aligner-item"></i>Listado de Muestras</h4>
+					<a href="/ingreso-muestras.php" class="button btn-light-blue Aligner-item right">Ingresar Muestra</a>
     			</div>
     		</div>
     	</div>

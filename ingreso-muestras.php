@@ -98,10 +98,10 @@
 
 						<div class="section colm colm6">
 							<label for="estudioSolicitado" class="field-label">Estudio Solicitado</label>
-							<label class="field prepend-icon">
-								<select id="estudioSolicitado" name="estudioSolicitado" name="estudioSolicitado" data-cb-widget-placeholder="Select one..." data-cb-widget-id="estudioSolicitado" data-cb-widget-name="estudioSolicitado">
-									<!-- <option disabled selected>Seleccione un estudio</option> -->
-									<option>Select one...</option>
+							<label class="field select prepend-icon">
+								<select id="estudioSolicitado" name="estudioSolicitado">
+									<option disabled>Seleccione un estudio</option>
+									<!-- <option>Select one...</option> -->
 									<option>Citologia</option>
 									<option>Calculo Urinario</option>
 									<option>Toxo-Neo</option>
@@ -115,7 +115,7 @@
 					<div class="frm-row">
 						<div class="section colm colm6">
 							<label for="raza" class="field-label">Raza</label>
-							<label class="field prepend-icon">
+							<label class="field select prepend-icon">
 								<select id="raza" name="raza" data-cb-widget-placeholder="Raza">
 									<option disabled selected>Seleccione una raza</option>
 									<option>Schnauzer</option>

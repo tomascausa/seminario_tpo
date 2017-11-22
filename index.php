@@ -33,7 +33,7 @@
 <!--					<button type="submit" class="button btn-blue btn-light-blue">Ingresar</button>-->
 					<div class="row">
 					  	<div class="col-md-12">
-					  		<a href="ingreso-muestras.php" class="button btn-blue btn-light-blue">Ingresar</a>
+					  		<a href="lista-muestras.php" class="button btn-blue btn-light-blue">Ingresar</a>
 					  	</div>
 					</div>
 					<div class="divider-10"></div>
